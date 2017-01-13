@@ -96,3 +96,8 @@ python Client.py -d <HOST_NAME:PORT> -a <AUTHENTICATION_TOKEN>
 Where:
 HOST_NAME:PORT: the host name and port of the testing server that sends the revisions in xml format and the metadata in cvs format.
 AUTHENTICATION_TOKEN: a token to identify the client in the server
+
+## System Requirements
+
+- 200gb of free HDD space in the drive were the working directory is
+- 256gb RAM: peak observed RAM usage was 140gb when training the final model. However, the machine used had 256gb of RAM, so we can't warranty that it will run properly with less. 
