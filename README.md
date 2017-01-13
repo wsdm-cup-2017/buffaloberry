@@ -1,5 +1,4 @@
-# buffaloberry
-The Buffaloberry Vandalism Detector
+# The Buffaloberry Vandalism Detector
 
 This repository contains the code for the Winning Solution to the WSDM Cup task of Vandalism Detection. http://www.wsdm-cup-2017.org/vandalism-detection.html
 
@@ -94,8 +93,8 @@ To run the final production client, go into the production folder that was creat
 python Client.py -d <HOST_NAME:PORT> -a <AUTHENTICATION_TOKEN>
 ```
 Where:
-HOST_NAME:PORT: the host name and port of the testing server that sends the revisions in xml format and the metadata in cvs format.
-AUTHENTICATION_TOKEN: a token to identify the client in the server
+- HOST_NAME:PORT: the host name and port of the testing server that sends the revisions in xml format and the metadata in cvs format.
+- AUTHENTICATION_TOKEN: a token to identify the client in the server
 
 ## System Requirements
 
